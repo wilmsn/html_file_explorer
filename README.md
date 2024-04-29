@@ -65,6 +65,20 @@ When you click on the folder this folder will be opened:
 
 When you press play near a file "function fd_play_file(filename)" will be executed.
 
+**Settings:**
+
+Here you can change the size of the icons:
+
+	var fd_dims = "height='60px' width='60px'";
+
+To change the files of the icons use this lines:
+
+	var fd_do = "dir_open.png";
+	var fd_dc = "dir_close.png";
+	var fd_pl = "play.png";
+	var fd_fi = "mp3file.png";
+	var fd_le = "leer.png";
+
 **External Elements:**
 The Icons are taken from https://www.iconarchive.com/
 	
