@@ -54,11 +54,15 @@ Every file will be shown as a mp3 file: You have to filter it before delivery.
 **Result:**
 
 When all the folders are closed it looks like this:
+
 ![](https://raw.githubusercontent.com/wilmsn/html_file_explorer/main/result_dir_closed.png) 
+
 When you press play "function fd_play_dir(dirname)" will be executed.
 
 When you click on the folder this folder will be opened:
+
 ![](https://raw.githubusercontent.com/wilmsn/html_file_explorer/main/result_dir_opened.png) 
+
 When you press play near a file "function fd_play_file(filename)" will be executed.
 
 **External Elements:**
