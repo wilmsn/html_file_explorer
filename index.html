@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="html_file_explorer.js"></script>
+
+
+<script type="text/javascript">
+
+
+$(document).ready(function(){
+  alert();
+  fd_add('/Heart - Heart/01 - If Looks Could Kill.mp3');
+  fd_add('/Heart - Heart/02 - What About Love.mp3');
+  fd_add('/Heart - Heart/03 - Never.mp3');
+  fd_add('/Heart - Heart/04 - These Dreams.mp3');
+  fd_add('/Heart - Heart/05 - The Wolf.mp3');
+  fd_add('/Heart - Heart/06 - All Eyes.mp3');
+  fd_add('/Heart - Heart/07 - Nobody Home.mp3');
+  fd_add("/Heart - Heart/08 - Nothin' At All.mp3");
+  fd_add("/Heart - Heart/09 - What He Don't Know.mp3");
+  fd_add('/Heart - Heart/10 - Shell Shock.mp3');
+  fd_add('/Anne Haigis - Geheime Zeichen/01-Geheime Zeichen.mp3');
+  fd_add('/Anne Haigis - Geheime Zeichen/02-Immer wieder Du.mp3');
+  fd_add('/Anne Haigis - Geheime Zeichen/03-Haut für Haut.mp3');
+  fd_add('/Anne Haigis - Geheime Zeichen/04-Halt micht jetzt.mp3');
+  fd_add('/Anne Haigis - Geheime Zeichen/05-Herz über Grenzen.mp3');
+  fd_add("/Anne Haigis - Geheime Zeichen/06-Abgehau'n.mp3");
+  fd_add('/Anne Haigis - Geheime Zeichen/07-Mehr.mp3');
+  fd_add('/Anne Haigis - Geheime Zeichen/08-We Wanna Live.mp3');
+  fd_add('/Anne Haigis - Geheime Zeichen/09-Braune Augen.mp3');
+  fd_add('/Anne Haigis - Geheime Zeichen/10-Geheimer Besuch.mp3');
+
+  fd_add("/dir1/file1.mp3");
+  fd_add("/dir2/file1.mp3");
+  fd_add("/dir3/file1.mp3");
+  fd_add("/dir3/file2.mp3");
+  fd_add("/dir3/file3.mp3");
+  fd_add("/dir3/file4.mp3");
+  fd_add("/dir3/file5.mp3");
+
+});
+
+function fd_play_dir(dirname) {
+  alert("Play Dir: "+dirname);
+}
+
+function fd_play_file(filename) {
+  alert("Play File: "+filename);
+}
+
+
+</script>
+
+<style>
+
+body {
+    font-family:verdana,sans-serif;
+    background:#AAAAAA;
+    color:#111111;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+/* Wrapper zur Breitenreduktion */
+.wrapper {
+  width: 340px;
+}
+
+/* Content Wrapper */
+.div_content {
+  width: 100%;
+}
+
+.fd_dir {
+  width: 60%;
+  float: right;
+  padding-top: 10px;
+}
+
+.fd_file {
+  width: 40%;
+  float: right;
+  padding-top: 10px;
+}
+
+</style>
+
+<title id="titel">html_file_explorer Testseite</title>
+</head>
+<body>
+<div class="wrapper">
+  <div id="page_main" class="div_content">
+     <div id="html_file_explorer">
+     </div>
+  </div>  
+</div>
+</body>
+</html>
