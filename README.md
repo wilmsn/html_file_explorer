@@ -1,4 +1,4 @@
-#HTML File Explorer
+## HTML File Explorer
 
 **html_file_explorer.js** is a small library to display a filestructure inside a HTML page.
 
@@ -80,5 +80,6 @@ To change the files of the icons use this lines:
 	var fd_le = "leer.png";
 
 **External Elements:**
+
 The Icons are taken from https://www.iconarchive.com/
 	
